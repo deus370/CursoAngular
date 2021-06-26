@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 400px;
+  padding: 0% 0 0;
+  margin: auto;
+}
+
+.form {
+  font-family: "Avenir Next", Arial, Helvetica, sans-serif;
+  position: relative;
+  background: #FFFFFF;
+  max-width: 350px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 1%;
+  color: #7E7E7E;
+  padding: 8px 20px;
+}
+
+
+.form input {
+  font-family: "Avenir Next", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 80%;
+  border: 0;
+  margin: 0 0 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: linear-gradient(#23283D, transparent), url('../img/fondo.png');
+  background-repeat: no-repeat;
+}
+
+
+
+
+input[type="email"] {
+  
+  font-family: "Avenir Next", sans-serif;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background-image: url(../img/correo.png);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+}
+
+input[type="email"]:focus {
+  border-color: #23283D;
+  box-shadow: 0 0 8px 0 #23283D;
+}
+
+.inputWithIcon input[type="email"] {
+  padding-left: 40px;
+}
+
+
+
+input[type="password"] {
+  font-family: "Avenir Next", sans-serif;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background-image: url(../img/key.png);
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+}
+
+input[type="password"]:focus {
+  border-color: #23283D;
+  box-shadow: 0 0 8px 0 #23283D;
+}
+
+.inputWithIcon input[type="password"] {
+  padding-left: 40px;
+}
+
+
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+.inputWithIcon input[type="text"]:focus + i {
+  color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+  background-color: #aaa;
+  color: #fff;
+  padding: 9px 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+  color: #fff;
+  background-color: dodgerBlue;
+}
